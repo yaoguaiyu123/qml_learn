@@ -4,7 +4,6 @@
 import QtQuick
 import QtQuick.Controls
 import Qt.labs.platform as Platform   //解决名字冲突，指定Platform作为前缀
-//import
 
 ApplicationWindow {
     id:root
