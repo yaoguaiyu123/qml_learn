@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=appqml17
+Icon=tb.png
+Exec=./
+Comment=example
+Categories=Utility;
+ 

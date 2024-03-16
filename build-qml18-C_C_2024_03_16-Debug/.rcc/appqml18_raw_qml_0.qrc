@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/qt/qml/qml18/">
+    <file alias="Main.qml">/run/media/root/study/github_repository/qml_learn/qml18/Main.qml</file>
+    <file alias="resources.qrc">/run/media/root/study/github_repository/qml_learn/qml18/resources.qrc</file>
+  </qresource>
+</RCC>
+
