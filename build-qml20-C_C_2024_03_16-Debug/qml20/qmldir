@@ -1,0 +1,9 @@
+module qml20
+typeinfo appqml20.qmltypes
+prefer :/qt/qml/qml20/
+Main 1.0 Main.qml
+Home 1.0 Home.qml
+ProFile 1.0 ProFile.qml
+About 1.0 About.qml
+EditProFile 1.0 EditProFile.qml
+

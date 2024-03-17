@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/qml21">
+    <file alias="qmldir">/run/media/root/study/github_repository/qml21/build-qml21-C_C_2024_03_16-Debug/qml21/qmldir</file>
+  </qresource>
+</RCC>
+

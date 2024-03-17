@@ -1,0 +1,14 @@
+-rootPath
+/run/media/root/study/github_repository/qml21/qml21
+-cmake-output
+-output-file
+/run/media/root/study/github_repository/qml21/build-qml21-C_C_2024_03_16-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appqml21.cmake
+-importPath
+/run/media/root/study/github_repository/qml21/build-qml21-C_C_2024_03_16-Debug/qml21
+-importPath
+/run/media/root/study/github_repository/qml21/build-qml21-C_C_2024_03_16-Debug
+-importPath
+/opt/Qt/6.5.3/gcc_64/./qml
+-qrcFiles
+/run/media/root/study/github_repository/qml21/build-qml21-C_C_2024_03_16-Debug/.rcc/qmake_qml21.qrc
+/run/media/root/study/github_repository/qml21/build-qml21-C_C_2024_03_16-Debug/.rcc/appqml21_raw_qml_0.qrc

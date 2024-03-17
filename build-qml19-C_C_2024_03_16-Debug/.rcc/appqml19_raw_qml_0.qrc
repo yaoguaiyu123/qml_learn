@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="/qt/qml/qml19/">
+    <file alias="Main.qml">/run/media/root/study/github_repository/qml_learn/qml19/Main.qml</file>
+    <file alias="Home.qml">/run/media/root/study/github_repository/qml_learn/qml19/Home.qml</file>
+    <file alias="ProFile.qml">/run/media/root/study/github_repository/qml_learn/qml19/ProFile.qml</file>
+    <file alias="About.qml">/run/media/root/study/github_repository/qml_learn/qml19/About.qml</file>
+    <file alias="EditProFile.qml">/run/media/root/study/github_repository/qml_learn/qml19/EditProFile.qml</file>
+    <file alias="image.qrc">/run/media/root/study/github_repository/qml_learn/qml19/image.qrc</file>
+  </qresource>
+</RCC>
+

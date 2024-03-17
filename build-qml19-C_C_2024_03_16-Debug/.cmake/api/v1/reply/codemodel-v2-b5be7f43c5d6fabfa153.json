@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-1c4aab12cd565aa3c4a8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "qml19",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-43e3a0a320f517dcb526.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-008ce6097ca1f5a812a7.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-5bfa9722596193442e46.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-6bba2ea81dc21e7aac98.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appqml19::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appqml19-Debug-dd19a3c69b5977fd5243.json",
+					"name" : "appqml19",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appqml19_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appqml19_autogen-Debug-5f3cd9b3ebbb713e50a2.json",
+					"name" : "appqml19_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appqml19_automoc_json_extraction::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appqml19_automoc_json_extraction-Debug-e8e34d4237c31fbc112d.json",
+					"name" : "appqml19_automoc_json_extraction",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appqml19_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appqml19_qmlimportscan-Debug-6dccc215aa253d2936c9.json",
+					"name" : "appqml19_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appqml19_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appqml19_qmllint-Debug-2d45090741327f30ae97.json",
+					"name" : "appqml19_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appqml19_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appqml19_qmllint_json-Debug-c33bc484248dbc57b6a3.json",
+					"name" : "appqml19_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appqml19_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appqml19_qmllint_module-Debug-a11caca6a2acab12c289.json",
+					"name" : "appqml19_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appqml19_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appqml19_qmltyperegistration-Debug-183bed2dfffd1f212c75.json",
+					"name" : "appqml19_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appqml19_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appqml19_tooling-Debug-4ca0bd9d9f4975f3c9a1.json",
+					"name" : "appqml19_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/run/media/root/study/github_repository/qml_learn/build-qml19-C_C_2024_03_16-Debug",
+		"source" : "/run/media/root/study/github_repository/qml_learn/qml19"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

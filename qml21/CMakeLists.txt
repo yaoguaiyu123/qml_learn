@@ -1,0 +1,192 @@
+cmake_minimum_required(VERSION 3.27)
+
+project(qml21 VERSION 0.1 LANGUAGES CXX)
+
+find_package(Qt6 6.5 REQUIRED COMPONENTS Quick)
+
+qt_standard_project_setup(REQUIRES 6.5)
+
+qt_add_executable(appqml21)
+
+qt_add_qml_module(appqml21
+    URI qml21
+    VERSION 1.0
+    QML_FILES Main.qml
+    SOURCES main.cpp
+    QML_FILES Documentwindow.qml
+    RESOURCES resource.qrc
+)
+
+target_compile_features(appqml21 PRIVATE cxx_std_20)
+
+set_target_properties(appqml21 PROPERTIES
+    AUTORCC TRUE
+    MACOSX_BUNDLE_GUI_IDENTIFIER my.example.com
+    MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
+    MACOSX_BUNDLE_SHORT_VERSION_STRING ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}
+    MACOSX_BUNDLE TRUE
+    WIN32_EXECUTABLE TRUE
+)
+
+target_link_libraries(appqml21
+    PRIVATE 
+        Qt6::Quick
+)
+
+include(GNUInstallDirs)
+install(TARGETS appqml21
+    BUNDLE DESTINATION .
+    LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
+    RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#qt_add_executable(qml21)  //Creates and finalizes an application target of a platform-specific type.
+#This command performs the following tasks:
+#    1. Create a CMake target of the appropriate type for the target platform.
+#    2. Link the target to the Qt::Core library.
+#    3. Handle finalization of the CMake target.
+
+
+
+# qt_standard_project_setup()     #set(CMAKE_AUTOUIC ON)  set(CMAKE_AUTOMOC ON)
+
+# @if %{HasTranslation}
+# find_package(Qt6 REQUIRED COMPONENTS Core Quick LinguistTools)
+# @else
+# find_package(Qt6 REQUIRED COMPONENTS Core Quick)
+# @endif
+
+# target_sources(appqml21
+#     PRIVATE
+#         main.cpp
+#         qml.qrc
+#     @if %{HasTranslation}
+#         %{TsFileName}
+#     @endif
+#         
+#     PUBLIC
+#         
+# )
+
+# qt_import_qml_plugins(qml21)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# cmake_minimum_required(VERSION 3.16)
+# 
+# project(qml21 VERSION 0.1 LANGUAGES CXX)
+# 
+# @if !true
+# set(CMAKE_AUTOMOC ON)
+# @endif
+# set(CMAKE_CXX_STANDARD_REQUIRED ON)
+# 
+# find_package(Qt6 6.5 REQUIRED COMPONENTS Quick)
+# 
+# @if true
+# @if true
+# qt_standard_project_setup(REQUIRES 6.5)
+# @else
+# qt_standard_project_setup()
+# @endif
+# @endif
+# 
+# qt_add_executable(appqml21
+#     main.cpp
+# )
+# 
+# qt_add_qml_module(appqml21
+#     URI qml21
+#     VERSION 1.0
+#     QML_FILES Main.qml
+# )
+# 
+# # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
+# # If you are developing for iOS or macOS you should consider setting an
+# # explicit, fixed bundle identifier manually though.
+# set_target_properties(appqml21 PROPERTIES
+# #    MACOSX_BUNDLE_GUI_IDENTIFIER com.example.appqml21
+#     MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
+#     MACOSX_BUNDLE_SHORT_VERSION_STRING ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}
+#     MACOSX_BUNDLE TRUE
+#     WIN32_EXECUTABLE TRUE
+# )
+# 
+# target_link_libraries(appqml21
+#     PRIVATE Qt6::Quick
+# )
+# 
+# include(GNUInstallDirs)
+# install(TARGETS appqml21
+#     BUNDLE DESTINATION .
+#     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
+#     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
+# )

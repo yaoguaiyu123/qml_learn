@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/qt/qml/qml21/">
+    <file alias="Main.qml">/run/media/root/study/github_repository/qml21/qml21/Main.qml</file>
+    <file alias="Documentwinidow.qml">/run/media/root/study/github_repository/qml21/qml21/Documentwinidow.qml</file>
+  </qresource>
+</RCC>
+

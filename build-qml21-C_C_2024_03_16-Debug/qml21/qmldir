@@ -1,0 +1,6 @@
+module qml21
+typeinfo appqml21.qmltypes
+prefer :/qt/qml/qml21/
+Main 1.0 Main.qml
+Documentwinidow 1.0 Documentwinidow.qml
+
