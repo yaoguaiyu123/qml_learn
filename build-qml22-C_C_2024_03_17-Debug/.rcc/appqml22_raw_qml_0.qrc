@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/qt/qml/qml22/">
+    <file alias="Main.qml">/run/media/root/study/github_repository/qml_learn/qml22/Main.qml</file>
+    <file alias="BlueBox.qml">/run/media/root/study/github_repository/qml_learn/qml22/BlueBox.qml</file>
+  </qresource>
+</RCC>
+

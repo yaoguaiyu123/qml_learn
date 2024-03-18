@@ -1,0 +1,6 @@
+module qml22
+typeinfo appqml22.qmltypes
+prefer :/qt/qml/qml22/
+Main 1.0 Main.qml
+BlueBox 1.0 BlueBox.qml
+
